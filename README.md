@@ -9,19 +9,31 @@ The dataset is a CSV (Comma-Separated Values) file, making it easy to load into 
 Data Description
 The dataset contains 12 columns and several thousands of rows, each representing a single loan application. Below is a detailed description of each column:
 
-Column Name	Description	Data Type
+Column Name	Description	Data Type:
 person_age	Age of the applicant (in years).	Integer
+
 person_income	Annual income of the applicant (in USD).	Integer
+
 person_home_ownership	Type of home ownership of the applicant (RENT, MORTGAGE, OWN, OTHER).	Categorical
+
 person_emp_length	Employment length of the applicant (in years).	Float
+
 loan_intent	Purpose of the loan (e.g., EDUCATION, PERSONAL, VENTURE, MEDICAL, HOMEIMPROVEMENT).	Categorical
+
 loan_grade	Grade assigned to the loan based on its risk (A to G, with A being the least risky).	Categorical
+
 loan_amnt	Amount of the loan requested by the applicant (in USD).	Integer
+
 loan_int_rate	Interest rate of the loan (in percentage).	Float
+
 loan_status	Loan repayment status (0 for paid back, 1 for default).	Integer
+
 loan_percent_income	Loan amount as a percentage of the applicant's income.	Float
+
 cb_person_default_on_file	Whether the applicant has a history of default (Y for yes, N for no).	Categorical
+
 cb_person_cred_hist_length	Length of the applicant's credit history (in years).	Integer
+
 Key Highlights
 Loan Prediction: The dataset is suitable for predicting whether a loan will be repaid or defaulted based on various features.
 Risk Analysis: It provides insights into factors like loan grades, interest rates, and credit history, which can be used to assess risk.
